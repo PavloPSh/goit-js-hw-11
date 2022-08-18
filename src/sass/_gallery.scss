@@ -1,0 +1,33 @@
+    @import '~node_modules/modern-normalize/modern-normalize.css';
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.gallery{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery__photo-card{
+    outline: 2px solid gray;
+    margin-bottom: 10px;
+    
+    
+}
+
+.gallery__info {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+// img{
+//     width: 100%;
+//     background-size: cover;
+    
+// }
+
